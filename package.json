@@ -1,0 +1,29 @@
+{
+  "name": "img",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cz": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NorthSeacoder/img.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NorthSeacoder/img/issues"
+  },
+  "homepage": "https://github.com/NorthSeacoder/img#readme",
+  "devDependencies": {
+    "@nsea/cz": "0.0.2",
+    "commitizen": "^4.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@nsea/cz"
+    }
+  }
+}
